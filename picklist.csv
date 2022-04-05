@@ -1,0 +1,11 @@
+comment,rarity,name,type,prop1,min1,max1,prop2,min2,max2,prop3,min3,max3,prop4,min4,max4,prop5,min5,max5,prop6,min6,max6
+soj,unique,the stone of jordan,ring,,,,,,,,,,,,,,,,,,
+perf mf nagel,unique,,ring,mag%,30,30,,,,,,,,,,,,,,,
+perf light abs wisp,unique,,ring,abs-ltng%,20,20,,,,,,,,,,,,,,,
+perf mf wisp,unique,,ring,mag%,20,20,,,,,,,,,,,,,,,
+perf dex raven,unique,,ring,dex,20,20,,,,,,,,,,,,,,,
+bvc ring,rare,,ring,cast1,10,10,mana,60,90,hp,30,40,att,90,150,,,,,,
+dual stat melee ring,rare,,ring,str,15,20,dex,10,15,att,100,150,,,,,,,,,
+base hdin ring,rare,,ring,cast1,10,10,dex,10,15,hp,30,40,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+base hdin ring,rare,,ring,cast1,10,10,dex,10,15,hp,30,40,,,,,,,,,
