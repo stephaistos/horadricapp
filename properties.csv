@@ -1,0 +1,516 @@
+code,*Tooltip
+ac,\+(\d+) Defense
+ac-miss,\+(\d+) Defense vs. Missile
+ac-hth,\+(\d+) Defense vs. Melee
+red-dmg,Damage Reduced by (\d+)
+red-dmg%,Damage Reduced by (\d+)%
+ac%,\+(\d+)% Enhanced Defense
+red-mag,Magic Damage Reduced by (\d+)
+str,\+(\d+) to Strength
+dex,\+(\d+) to Dexterity
+vit,\+(\d+) to Vitality
+enr,\+(\d+) to Energy
+mana,\+(\d+) to Mana
+mana%,Increase Maximum Mana (\d+)%
+hp,\+(\d+) to Life
+hp%,Increase Maximum Life (\d+)%
+att,\+(\d+) to Attack Rating
+block,(\d+)% Increased Chance of Blocking
+cold-min,\+(\d+) to Minimum Cold Damage
+cold-max,\+(\d+) to Maximum Cold Damage
+fire-min,\+(\d+) to Minimum Fire Damage
+fire-max,\+(\d+) to Maximum Fire Damage
+ltng-min,\+(\d+) to Minimum Lightning Damage
+ltng-max,\+(\d+) to Maximum Lightning Damage
+pois-min,\+(\d+) to Minimum Poison Damage
+pois-max,\+(\d+) to Maximum Poison Damage
+dmg-min,\+(\d+) to Minimum Damage
+dmg-max,\+(\d+) to Maximum Damage
+dmg%,\+(\d+)% Enhanced Damage
+dmg-to-mana,(\d+)% Damage Taken Goes To Mana
+res-fire,Fire Resist \+(\d+)%
+res-fire-max,\+(\d+)% to Maximum Fire Resist
+res-ltng,Lightning Resist \+(\d+)%
+res-ltng-max,\+(\d+)% to Maximum Lightning Resist
+res-cold,Cold Resist \+(\d+)%
+res-cold-max,\+(\d+)% to Maximum Cold Resist
+res-mag,Magic Resist \+(\d+)%
+res-mag-max,\+(\d+)% to Maximum Magic Resist
+res-pois,Poison Resist \+(\d+)%
+res-pois-max,\+(\d+)% to Maximum Poison Resist
+res-all,All Resistances \+(\d+)
+abs-fire%,\+(\d+) Fire Absorb
+abs-fire,Fire Absorb (\d+)%
+abs-ltng%,\+(\d+) Lightning Absorb
+abs-ltng,Lightning Absorb (\d+)%
+abs-mag%,\+(\d+) Magic Absorb
+abs-mag,Magic Absorb (\d+)%
+abs-cold%,\+(\d+) Cold Absorb
+abs-cold,Cold Absorb (\d+)%
+dur,Durability: (\d+) of (\d+)
+dur%,Increase Maximum Durability (\d+)%
+regen,Replenish Life \+(\d+)
+thorns,Attacker Takes Damage of (\d+)
+swing1,\+(\d+)% Increased Attack Speed
+gold%,(\d+)% Extra Gold from Monsters
+mag%,(\d+)% Better Chance of Getting Magic Items
+knock,Knockback
+regen-stam,Heal Stamina Plus (\d+)%
+regen-mana,Regenerate Mana (\d+)%
+stam,\+(\d+) Maximum Stamina
+manasteal,(\d+)% Mana stolen per hit
+lifesteal,(\d+)% Life stolen per hit
+ama,\+(\d+) to Amazon Skill Levels
+pal,\+(\d+) to Paladin Skill Levels
+nec,\+(\d+) to Necromancer Skill Levels
+sor,\+(\d+) to Sorceress Skill Levels
+bar,\+(\d+)  to Barbarian Skill Levels
+light,\+(\d+) to Light Radius
+ease,Requirements -(\d+)%
+move1,\+(\d+)% Faster Run/Walk
+balance1,\+(\d+)% Faster Hit Recovery
+block1,\+(\d+)% Faster Block Rate
+cast1,\+(\d+)% Faster Cast Rate
+res-pois-len,Poison Length Reduced by (\d+)%
+dmg,Damage \+(\d+)
+howl,Hit Causes Monster to Flee (\d+)%
+stupidity,Hit Blinds Target \+(\d+)
+ignore-ac,Ignore Target's Defense
+reduce-ac,-(\d+)% Target Defense
+noheal,Prevent Monster Heal
+half-freeze,Half Freeze Duration
+att%,(\d+)% Bonus to Attack Rating
+dmg-ac,-(\d+) to Monster Defense Per Hit
+dmg-demon,\+(\d+)% Damage to Demons
+dmg-undead,\+(\d+)% Damage to Undead
+att-demon,\+(\d+) to Attack Rating against Demons
+att-undead,\+(\d+) to Attack Rating against Undead
+fireskill,\+(\d+) to Fire Skills
+allskills,\+(\d+) to All Skills
+light-thorns,Attacker Takes Lightning Damage of (\d+)
+freeze,Freezes Target \+(\d+)
+openwounds,(\d+)% Chance of Open Wounds
+crush,(\d+)% Chance of Crushing Blow
+kick,\+(\d+) Kick Damage
+mana-kill,\+(\d+) to Mana after each Kill
+demon-heal,\+(\d+) Life after each Demon Kill
+deadly,(\d+)% Deadly Strike
+slow,Slows Target by (\d+)%
+nofreeze,Cannot Be Frozen
+stamdrain,(\d+)% Slower Stamina Drain
+reanimate,Reanimate As: [Returned]
+pierce,Piercing Attack
+magicarrow,Fires Magic Arrows
+explosivearrow,Fires Explosive Arrows or Bolts
+dru,\+(\d+) to Druid Skill Levels
+ass,\+(\d+) to Assassin Skill Levels
+skill,([+]?\d+) to [Skill] ([Class] only)
+skilltab,([+]?\d+) to [Class Skill Tab] Skills
+skilltab0,\+(\d+) to Bow & Crossbow Skills \(Amazon only\)
+skilltab1,\+(\d+) to Passive & Magic Skills \(Amazon only\)
+skilltab2,\+(\d+) to Spear & Javelin Skills \(Amazon only\)
+skilltab3,\+(\d+) to Fire Skills \(Sorceress only\)
+skilltab4,\+(\d+) to Lightning Skills \(Sorceress only\)
+skilltab5,\+(\d+) to Cold Skills \(Sorceress only\)
+skilltab6,\+(\d+) to Curses \(Necromancer only\)
+skilltab7,\+(\d+) to Poison & Bone Skill \(Necromancer only\)
+skilltab8,\+(\d+) to Summoning Skills \(Necromancer only\)
+skilltab9,\+(\d+) to Offensive Auras \(Paladin only\)
+skilltab10,\+(\d+) to Combat Skills \(Paladin only\)
+skilltab11,\+(\d+) to Defensive Auras \(Paladin only\)
+skilltab12,\+(\d+) to Masteries Skills \(Barbarian only\)
+skilltab13,\+(\d+) to Combat Skills \(Barbarian only\)
+skilltab14,\+(\d+) to Warcries Skills \(Barbarian only\)
+skilltab15,\+(\d+) to Summoning Skills \(Druid only\)
+skilltab16,\+(\d+) to Shapeshifting Skills \(Druid only\)
+skilltab17,\+(\d+) to Elemental Skills \(Druid only\)
+skilltab18,\+(\d+) to Traps Skills \(Assassin only\)
+skilltab19,\+(\d+) to Shadow Disciplines Skills \(Assassin only\)
+skilltab20,\+(\d+) to Martial Arts Skills \(Assassin only\)
+aura,Level (\d+) [Skill] Aura When Equipped
+aura1,Level (\d+) Concentration Aura When Equipped
+aura2,Level (\d+) Conviction Aura When Equipped
+aura3,Level (\d+) Defiance Aura When Equipped
+aura4,Level (\d+) Fanaticism Aura When Equipped
+aura5,Level (\d+) Holy Fire Aura When Equipped
+aura6,Level (\d+) Holy Freeze Aura When Equipped
+aura7,Level (\d+) Holy Shock Aura When Equipped
+aura8,Level (\d+) Meditation Aura When Equipped
+aura9,Level (\d+) Might Aura When Equipped
+aura10,Level (\d+) Redemption Aura When Equipped
+aura11,Level (\d+) Sanctuary Aura When Equipped
+aura12,Level (\d+) Thorns Aura When Equipped
+aura13,Level (\d+) Vigor Aura When Equipped
+att-skill,(\d+)% Chance to cast level (\d+) (.+) on attack
+att-skill1,(\d+)% Chance to cast level (\d+) Chain Lightning on attack
+att-skill2,(\d+)% Chance to cast level (\d+) Charged Bolt on attack
+att-skill3,(\d+)% Chance to cast level (\d+) Fireball on attack
+att-skill4,(\d+)% Chance to cast level (\d+) Frozen Orb on attack
+att-skill5,(\d+)% Chance to cast level (\d+) Glacial Spike on attack
+att-skill6,(\d+)% Chance to cast level (\d+) Nova on attack
+hit-skill,(\d+)% Chance to cast level (\d+) (.+) on striking
+gethit-skill,(\d+)% Chance to cast level (\d+) (.+) when struck
+sock,Socketed \((\d+)\)
+dmg-fire,Adds (\d+)-(\d+) Fire Damage
+dmg-ltng,Adds (\d+)-(\d+) Lightning Damage
+dmg-mag,Adds (\d+)-(\d+) Magic Damage
+dmg-cold,Adds (\d+)-(\d+) Cold Damage
+dmg-pois,Adds (\d+)-(\d+) Poison Damage Over (\d+) Seconds
+dmg-norm,Adds (\d+)-(\d+) Damage
+ac/lvl,\+(\d+) Defense \(Based on Character Level\)
+ac%/lvl,\+(\d+)% Enhanced Defense \(Based on Character Level\)
+hp/lvl,\+(\d+) to Life \(Based on Character level\)
+mana/lvl,\+(\d+) to Mana \(Based on Character level\)
+dmg/lvl,\+(\d+) to Maximum Damage \(Based on Character level\)
+dmg%/lvl,\+(\d+)% Enhanced Maximum Damage \(Based on Character level\)
+str/lvl,\+(\d+) to Strength \(Based on Character level\)
+dex/lvl,\+(\d+) to Dexterity \(Based on Character level\)
+enr/lvl,\+(\d+) to Energy \(Based on Character level\)
+vit/lvl,\+(\d+) to Vitality \(Based on Character level\)
+att/lvl,\+(\d+) to Attack Rating \(Based on Character level\)
+att%/lvl,(\d+)% Bonus to Attack Rating \(Based on Character level\)
+dmg-cold/lvl,\+(\d+) to Maximum Cold Damage \(Based on Character level\)
+dmg-fire/lvl,\+(\d+) to Maximum Fire Damage \(Based on Character level\)
+dmg-ltng/lvl,\+(\d+) to Maximum Lightning Damage \(Based on Character level\)
+dmg-pois/lvl,\+(\d+) to Maximum Poison Damage \(Based on Character level\)
+res-cold/lvl,Cold Resist \+(\d+)% \(Based on Character level\)
+res-fire/lvl,Fire Resist \+(\d+)% \(Based on Character level\)
+res-ltng/lvl,Lightning Resist \+(\d+)% \(Based on Character level\)
+res-pois/lvl,Poison Resist \+(\d+)% \(Based on Character level\)
+abs-cold/lvl,Absorbs Cold Damage \(Based on Character level\)
+abs-fire/lvl,Absorbs Fire Damage \(Based on Character level\)
+abs-ltng/lvl,Absorbs Lightning Damage \(Based on Character level\)
+abs-pois/lvl,Absorbs Poison Damage \(Based on Character level\)
+thorns/lvl,Attacker Takes Damage of (\d+) \(Based on Character level\)
+gold%/lvl,(\d+)% Extra Gold from Monsters \(Based on Character level\)
+mag%/lvl,(\d+)% Better Chance of Getting Magic Items \(Based on Character level\)
+regen-stam/lvl,Heal Stamina Plus (\d+)% \(Based on Character level\)
+stam/lvl,\+(\d+) Maximum Stamina \(Based on Character level\)
+dmg-dem/lvl,\+(\d+)% Damage to Demons \(Based on Character level\)
+dmg-und/lvl,\+(\d+)% Damage to Undead \(Based on Character level\)
+att-dem/lvl,\+(\d+) to Attack Rating against Demons \(Based on Character level\)
+att-und/lvl,\+(\d+) to Attack Rating against Undead \(Based on Character level\)
+crush/lvl,(\d+)% Chance of Crushing Blow \(Based on Character level\)
+wounds/lvl,(\d+)% Chance of Open Wounds \(Based on Character level\)
+kick/lvl,\+(\d+) Kick Damage \(Based on Character level\)
+deadly/lvl,(\d+)% Deadly Strike \(Based on Character level\)
+rep-dur,Repairs 1 durability in (\d+) seconds
+rep-quant,Replenishes quantity
+stack,Increased Stack Size
+pierce-fire,-(\d+)% to Enemy Fire Resistance
+pierce-ltng,-(\d+)% to Enemy Lightning Resistance
+pierce-cold,-(\d+)% to Enemy Cold Resistance
+pierce-pois,-(\d+)% to Enemy Poison Resistance
+indestruct,Indestructible
+charged,Level (\d+) (\w+) \((\d+)\/(\d+) charges\)
+charged1,Level (\d+) Amplify \((\d+)\/(\d+) charges\)
+charged2,Level (\d+) Attract \((\d+)\/(\d+) charges\)
+charged3,Level (\d+) Blizzard \((\d+)\/(\d+) charges\)
+charged4,Level (\d+) Blood golem \((\d+)\/(\d+) charges\)
+charged6,Level (\d+) Bone prison \((\d+)\/(\d+) charges\)
+charged7,Level (\d+) Chain Lightning \((\d+)\/(\d+) charges\)
+charged8,Level (\d+) Clay Golem \((\d+)\/(\d+) charges\)
+charged9,Level (\d+) Cloak of Shadows \((\d+)\/(\d+) charges\)
+charged10,Level (\d+) Corpse Explosion \((\d+)\/(\d+) charges\)
+charged11,Level (\d+) Cyclone Armor \((\d+)\/(\d+) charges\)
+charged12,Level (\d+) Decrepify \((\d+)\/(\d+) charges\)
+charged13,Level (\d+) Enchant \((\d+)\/(\d+) charges\)
+charged14,Level (\d+) Fire Wall \((\d+)\/(\d+) charges\)
+charged15,Level (\d+) Firestorm \((\d+)\/(\d+) charges\)
+charged16,Level (\d+) Frozen Orb \((\d+)\/(\d+) charges\)
+charged17,Level (\d+) Grim Ward \((\d+)\/(\d+) charges\)
+charged18,Level (\d+) Heart of Wolverine \((\d+)\/(\d+) charges\)
+charged19,Level (\d+) Holy Bolt \((\d+)\/(\d+) charges\)
+charged20,Level (\d+) Hydra \((\d+)\/(\d+) charges\)
+charged21,Level (\d+) Immolation Arrow \((\d+)\/(\d+) charges\)
+charged22,Level (\d+) Iron Maiden \((\d+)\/(\d+) charges\)
+charged23,Level (\d+) Iron Golem \((\d+)\/(\d+) charges\)
+charged24,Level (\d+) Life Tap \((\d+)\/(\d+) charges\)
+charged25,Level (\d+) Meteor \((\d+)\/(\d+) charges\)
+charged26,Level (\d+) Molten Boulder \((\d+)\/(\d+) charges\)
+charged27,Level (\d+) Nova \((\d+)\/(\d+) charges\)
+charged28,Level (\d+) Oak Sage \((\d+)\/(\d+) charges\)
+charged29,Level (\d+) Plague Javelin \((\d+)\/(\d+) charges\)
+charged30,Level (\d+) Poison Creeper \((\d+)\/(\d+) charges\)
+charged31,Level (\d+) Poison Explosion \((\d+)\/(\d+) charges\)
+charged32,Level (\d+) Poison Nova \((\d+)\/(\d+) charges\)
+charged33,Level (\d+) Raven \((\d+)\/(\d+) charges\)
+charged34,Level (\d+) Revive \((\d+)\/(\d+) charges\)
+charged35,Level (\d+) Slow Missiles \((\d+)\/(\d+) charges\)
+charged36,Level (\d+) Spirit of Barbs \((\d+)\/(\d+) charges\)
+charged37,Level (\d+) Summon Dire Wolf \((\d+)\/(\d+) charges\)
+charged38,Level (\d+) Summon Grizzly \((\d+)\/(\d+) charges\)
+charged39,Level (\d+) Summon Spirit Wolf \((\d+)\/(\d+) charges\)
+charged40,Level (\d+) Teeth  \((\d+)\/(\d+) charges\)
+charged41,Level (\d+) Teleport \((\d+)\/(\d+) charges\)
+charged42,Level (\d+) Twister \((\d+)\/(\d+) charges\)
+charged43,Level (\d+) Weaken \((\d+)\/(\d+) charges\)
+charged44,Level (\d+) Venom  \((\d+)\/(\d+) charges\)
+charged45,Level (\d+) Volcano  \((\d+)\/(\d+) charges\)
+extra-fire,\+(\d+)% to Fire Skill Damage
+extra-ltng,\+(\d+)% to Lightning Skill Damage
+extra-cold,\+(\d+)% to Cold Skill Damage
+extra-pois,\+(\d+)% to Poison Skill Damage
+dmg-elem,Adds (\d+)-(\d+) Fire/Lightning/Cold Damage
+dmg-elem-min,\+(\d+) to Minimum Fire/Lightning/Cold Damage
+dmg-elem-max,\+(\d+) to Maximum Fire/Lightning/Cold Damage
+all-stats,\+(\d+) to all Attributes
+addxp,\+(\d+)% to Experience Gained
+heal-kill,\+(\d+) Life after each Kill
+cheap,Reduces all Vendor Prices (\d+)%
+rip,Slain Monsters Rest in Peace
+att-mon%,(\d+)% to Attack Rating versus [Monster Type]
+dmg-mon%,(\d+)% to Damage versus [Monster Type]
+kill-skill,(\d+)% Chance to cast level # [Skill] when you Kill an Enemy
+death-skill,(\d+)% Chance to cast level # [Skill] when you Die
+levelup-skill,(\d+)% Chance to cast level # [Skill] when you Level-Up
+skill-rand,(\+\d+) to [Skill] ([Class] only)
+Skill-rand1,\+(\d+) to Magic Arrow \(Amazon only\)
+Skill-rand2,\+(\d+) to Fire Arrow \(Amazon only\)
+Skill-rand3,\+(\d+) to Inner Sigh \(Amazon only\)
+Skill-rand4,\+(\d+) to Critical Strike \(Amazon only\)
+Skill-rand5,\+(\d+) to Jab \(Amazon only\)
+Skill-rand6,\+(\d+) to Cold Arrow \(Amazon only\)
+Skill-rand7,\+(\d+) to Multiple Shot \(Amazon only\)
+Skill-rand8,\+(\d+) to Dodge \(Amazon only\)
+Skill-rand9,\+(\d+) to Power Strike \(Amazon only\)
+Skill-rand10,\+(\d+) to Poison Javelin \(Amazon only\)
+Skill-rand11,\+(\d+) to Exploding Arrow \(Amazon only\)
+Skill-rand12,\+(\d+) to Slow Missiles \(Amazon only\)
+Skill-rand13,\+(\d+) to Avoid \(Amazon only\)
+Skill-rand14,\+(\d+) to Impale \(Amazon only\)
+Skill-rand15,\+(\d+) to Lightning Bolt \(Amazon only\)
+Skill-rand16,\+(\d+) to Ice Arrow \(Amazon only\)
+Skill-rand17,\+(\d+) to Guided Arrow \(Amazon only\)
+Skill-rand18,\+(\d+) to Penetrate \(Amazon only\)
+Skill-rand19,\+(\d+) to Charged Strike \(Amazon only\)
+Skill-rand20,\+(\d+) to Plague Javelin \(Amazon only\)
+Skill-rand21,\+(\d+) to Strafe \(Amazon only\)
+Skill-rand22,\+(\d+) to Immolation Arrow \(Amazon only\)
+Skill-rand23,\+(\d+) to Dopplezon \(Amazon only\)
+Skill-rand24,\+(\d+) to Evade \(Amazon only\)
+Skill-rand25,\+(\d+) to Fend \(Amazon only\)
+Skill-rand26,\+(\d+) to Freezing Arrow \(Amazon only\)
+Skill-rand27,\+(\d+) to Valkyrie \(Amazon only\)
+Skill-rand28,\+(\d+) to Pierce \(Amazon only\)
+Skill-rand29,\+(\d+) to Lightning Strike \(Amazon only\)
+Skill-rand30,\+(\d+) to Lightning Fury \(Amazon only\)
+Skill-rand31,\+(\d+) to Fire Bolt \(Sorceress only\)
+Skill-rand32,\+(\d+) to Warmth \(Sorceress only\)
+Skill-rand33,\+(\d+) to Charged Bolt \(Sorceress only\)
+Skill-rand34,\+(\d+) to Ice Bolt \(Sorceress only\)
+Skill-rand35,\+(\d+) to Frozen Armor \(Sorceress only\)
+Skill-rand36,\+(\d+) to Inferno \(Sorceress only\)
+Skill-rand37,\+(\d+) to Static Field \(Sorceress only\)
+Skill-rand38,\+(\d+) to Telekinesis \(Sorceress only\)
+Skill-rand39,\+(\d+) to Frost Nova \(Sorceress only\)
+Skill-rand40,\+(\d+) to Ice Blast \(Sorceress only\)
+Skill-rand41,\+(\d+) to Blaze \(Sorceress only\)
+Skill-rand42,\+(\d+) to Fire Ball \(Sorceress only\)
+Skill-rand43,\+(\d+) to Nova \(Sorceress only\)
+Skill-rand44,\+(\d+) to Lightning \(Sorceress only\)
+Skill-rand45,\+(\d+) to Shiver Armor \(Sorceress only\)
+Skill-rand46,\+(\d+) to Fire Wall \(Sorceress only\)
+Skill-rand47,\+(\d+) to Enchant \(Sorceress only\)
+Skill-rand48,\+(\d+) to Chain Lightning \(Sorceress only\)
+Skill-rand49,\+(\d+) to Teleport \(Sorceress only\)
+Skill-rand50,\+(\d+) to Glacial Spike \(Sorceress only\)
+Skill-rand51,\+(\d+) to Meteor \(Sorceress only\)
+Skill-rand52,\+(\d+) to Thunder Storm \(Sorceress only\)
+Skill-rand53,\+(\d+) to Energy Shield \(Sorceress only\)
+Skill-rand54,\+(\d+) to Blizzard \(Sorceress only\)
+Skill-rand55,\+(\d+) to Chilling Armor \(Sorceress only\)
+Skill-rand56,\+(\d+) to Fire Mastery \(Sorceress only\)
+Skill-rand57,\+(\d+) to Hydra \(Sorceress only\)
+Skill-rand58,\+(\d+) to Lightning Mastery \(Sorceress only\)
+Skill-rand59,\+(\d+) to Frozen Orb \(Sorceress only\)
+Skill-rand60,\+(\d+) to Cold Mastery \(Sorceress only\)
+Skill-rand61,\+(\d+) to Amplify Damage \(Necromancer only\)
+Skill-rand62,\+(\d+) to Teeth \(Necromancer only\)
+Skill-rand63,\+(\d+) to Bone Armor \(Necromancer only\)
+Skill-rand64,\+(\d+) to Skeleton Mastery \(Necromancer only\)
+Skill-rand65,\+(\d+) to Raise Skeleton \(Necromancer only\)
+Skill-rand66,\+(\d+) to Dim Vision \(Necromancer only\)
+Skill-rand67,\+(\d+) to Weaken \(Necromancer only\)
+Skill-rand68,\+(\d+) to Poison Dagger \(Necromancer only\)
+Skill-rand69,\+(\d+) to Corpse Explosion \(Necromancer only\)
+Skill-rand70,\+(\d+) to Clay Golem \(Necromancer only\)
+Skill-rand71,\+(\d+) to Iron Maiden \(Necromancer only\)
+Skill-rand72,\+(\d+) to Terror \(Necromancer only\)
+Skill-rand73,\+(\d+) to Bone Wall \(Necromancer only\)
+Skill-rand74,\+(\d+) to Golem Mastery \(Necromancer only\)
+Skill-rand75,\+(\d+) to Raise Skeletal Mage \(Necromancer only\)
+Skill-rand76,\+(\d+) to Confuse \(Necromancer only\)
+Skill-rand77,\+(\d+) to Life Tap \(Necromancer only\)
+Skill-rand78,\+(\d+) to Poison Explosion \(Necromancer only\)
+Skill-rand79,\+(\d+) to Bone Spear \(Necromancer only\)
+Skill-rand80,\+(\d+) to Blood Golem \(Necromancer only\)
+Skill-rand81,\+(\d+) to Attract \(Necromancer only\)
+Skill-rand82,\+(\d+) to Decrepify \(Necromancer only\)
+Skill-rand83,\+(\d+) to Bone Prison \(Necromancer only\)
+Skill-rand84,\+(\d+) to Summon Resist \(Necromancer only\)
+Skill-rand85,\+(\d+) to Iron Golem \(Necromancer only\)
+Skill-rand86,\+(\d+) to Lower Resist \(Necromancer only\)
+Skill-rand87,\+(\d+) to Poison Nova \(Necromancer only\)
+Skill-rand88,\+(\d+) to Bone Spirit \(Necromancer only\)
+Skill-rand89,\+(\d+) to Fire Golem \(Necromancer only\)
+Skill-rand90,\+(\d+) to Revive \(Necromancer only\)
+Skill-rand91,\+(\d+) to Sacrifice \(Paladin only\)
+Skill-rand92,\+(\d+) to Smite \(Paladin only\)
+Skill-rand93,\+(\d+) to Might \(Paladin only\)
+Skill-rand94,\+(\d+) to Prayer \(Paladin only\)
+Skill-rand95,\+(\d+) to Resist Fire \(Paladin only\)
+Skill-rand96,\+(\d+) to Holy Bolt \(Paladin only\)
+Skill-rand97,\+(\d+) to Holy Fire \(Paladin only\)
+Skill-rand98,\+(\d+) to Thorns \(Paladin only\)
+Skill-rand99,\+(\d+) to Defiance \(Paladin only\)
+Skill-rand100,\+(\d+) to Resist Cold \(Paladin only\)
+Skill-rand101,\+(\d+) to Zeal \(Paladin only\)
+Skill-rand102,\+(\d+) to Charge \(Paladin only\)
+Skill-rand103,\+(\d+) to Blessed Aim \(Paladin only\)
+Skill-rand104,\+(\d+) to Cleansing \(Paladin only\)
+Skill-rand105,\+(\d+) to Resist Lightning \(Paladin only\)
+Skill-rand106,\+(\d+) to Vengeance \(Paladin only\)
+Skill-rand107,\+(\d+) to Blessed Hammer \(Paladin only\)
+Skill-rand108,\+(\d+) to Concentration \(Paladin only\)
+Skill-rand109,\+(\d+) to Holy Freeze \(Paladin only\)
+Skill-rand110,\+(\d+) to Vigor \(Paladin only\)
+Skill-rand111,\+(\d+) to Conversion \(Paladin only\)
+Skill-rand112,\+(\d+) to Holy Shield \(Paladin only\)
+Skill-rand113,\+(\d+) to Holy Shock \(Paladin only\)
+Skill-rand114,\+(\d+) to Sanctuary \(Paladin only\)
+Skill-rand115,\+(\d+) to Meditation \(Paladin only\)
+Skill-rand116,\+(\d+) to Fist of the Heavens \(Paladin only\)
+Skill-rand117,\+(\d+) to Fanaticism \(Paladin only\)
+Skill-rand118,\+(\d+) to Conviction \(Paladin only\)
+Skill-rand119,\+(\d+) to Redemption \(Paladin only\)
+Skill-rand120,\+(\d+) to Salvation \(Paladin only\)
+Skill-rand121,\+(\d+) to Bash \(Barbarian only\)
+Skill-rand122,\+(\d+) to Sword Mastery \(Barbarian only\)
+Skill-rand123,\+(\d+) to Axe Mastery \(Barbarian only\)
+Skill-rand124,\+(\d+) to Mace Mastery \(Barbarian only\)
+Skill-rand125,\+(\d+) to Howl \(Barbarian only\)
+Skill-rand126,\+(\d+) to Find Potion \(Barbarian only\)
+Skill-rand127,\+(\d+) to Leap \(Barbarian only\)
+Skill-rand128,\+(\d+) to Double Swing \(Barbarian only\)
+Skill-rand129,\+(\d+) to Pole Arm Mastery \(Barbarian only\)
+Skill-rand130,\+(\d+) to Throwing Mastery \(Barbarian only\)
+Skill-rand131,\+(\d+) to Spear Mastery \(Barbarian only\)
+Skill-rand132,\+(\d+) to Taunt \(Barbarian only\)
+Skill-rand133,\+(\d+) to Shout \(Barbarian only\)
+Skill-rand134,\+(\d+) to Stun \(Barbarian only\)
+Skill-rand135,\+(\d+) to Double Throw \(Barbarian only\)
+Skill-rand136,\+(\d+) to Increased Stamina \(Barbarian only\)
+Skill-rand137,\+(\d+) to Find Item \(Barbarian only\)
+Skill-rand138,\+(\d+) to Leap Attack \(Barbarian only\)
+Skill-rand139,\+(\d+) to Concentrate \(Barbarian only\)
+Skill-rand140,\+(\d+) to Iron Skin \(Barbarian only\)
+Skill-rand141,\+(\d+) to Battle Cry \(Barbarian only\)
+Skill-rand142,\+(\d+) to Frenzy \(Barbarian only\)
+Skill-rand143,\+(\d+) to Increased Speed \(Barbarian only\)
+Skill-rand144,\+(\d+) to Battle Orders \(Barbarian only\)
+Skill-rand145,\+(\d+) to Grim Ward \(Barbarian only\)
+Skill-rand146,\+(\d+) to Whirlwind \(Barbarian only\)
+Skill-rand147,\+(\d+) to Berserk \(Barbarian only\)
+Skill-rand148,\+(\d+) to Natural Resistance \(Barbarian only\)
+Skill-rand149,\+(\d+) to War Cry \(Barbarian only\)
+Skill-rand150,\+(\d+) to Battle Command \(Barbarian only\)
+Skill-rand151,\+(\d+) to Raven \(Druid only\)
+Skill-rand152,\+(\d+) to Poison Creeper \(Druid only\)
+Skill-rand153,\+(\d+) to Wearwolf \(Druid only\)
+Skill-rand154,\+(\d+) to Lycanthropy \(Druid only\)
+Skill-rand155,\+(\d+) to Firestorm \(Druid only\)
+Skill-rand156,\+(\d+) to Oak Sage \(Druid only\)
+Skill-rand157,\+(\d+) to Summon Spirit Wolf \(Druid only\)
+Skill-rand158,\+(\d+) to Werebear \(Druid only\)
+Skill-rand159,\+(\d+) to Molten Boulder \(Druid only\)
+Skill-rand160,\+(\d+) to Arctic Blast \(Druid only\)
+Skill-rand161,\+(\d+) to Carrion Vine \(Druid only\)
+Skill-rand162,\+(\d+) to Feral Rage \(Druid only\)
+Skill-rand163,\+(\d+) to Maul \(Druid only\)
+Skill-rand164,\+(\d+) to Fissure \(Druid only\)
+Skill-rand165,\+(\d+) to Cyclone Armor \(Druid only\)
+Skill-rand166,\+(\d+) to Heart of Wolverine \(Druid only\)
+Skill-rand167,\+(\d+) to Summon Dire Wolf \(Druid only\)
+Skill-rand168,\+(\d+) to Rabies \(Druid only\)
+Skill-rand169,\+(\d+) to Fire Claws \(Druid only\)
+Skill-rand170,\+(\d+) to Twister \(Druid only\)
+Skill-rand171,\+(\d+) to Solar Creeper \(Druid only\)
+Skill-rand172,\+(\d+) to Hunger \(Druid only\)
+Skill-rand173,\+(\d+) to Shock Wave \(Druid only\)
+Skill-rand174,\+(\d+) to Volcano \(Druid only\)
+Skill-rand175,\+(\d+) to Tornado \(Druid only\)
+Skill-rand176,\+(\d+) to Spirit of Barbs \(Druid only\)
+Skill-rand177,\+(\d+) to Summon Grizzly \(Druid only\)
+Skill-rand178,\+(\d+) to Fury \(Druid only\)
+Skill-rand179,\+(\d+) to Armageddon \(Druid only\)
+Skill-rand180,\+(\d+) to Hurricane \(Druid only\)
+Skill-rand181,\+(\d+) to Fire Blast \(Assassin only\)
+Skill-rand182,\+(\d+) to Claw Mastery \(Assassin only\)
+Skill-rand183,\+(\d+) to Psychic Hammer \(Assassin only\)
+Skill-rand184,\+(\d+) to Tiger Strike \(Assassin only\)
+Skill-rand185,\+(\d+) to Dragon Talon \(Assassin only\)
+Skill-rand186,\+(\d+) to Shock Web \(Assassin only\)
+Skill-rand187,\+(\d+) to Blade Sentinel \(Assassin only\)
+Skill-rand188,\+(\d+) to Burst Of Speed \(Assassin only\)
+Skill-rand189,\+(\d+) to Fists of Fire \(Assassin only\)
+Skill-rand190,\+(\d+) to Dragon Claw \(Assassin only\)
+Skill-rand191,\+(\d+) to Charged Bolt Sentry \(Assassin only\)
+Skill-rand192,\+(\d+) to Wake of Fire \(Assassin only\)
+Skill-rand193,\+(\d+) to Weapon Block \(Assassin only\)
+Skill-rand194,\+(\d+) to Cloak of Shadows \(Assassin only\)
+Skill-rand195,\+(\d+) to Cobra Strike \(Assassin only\)
+Skill-rand196,\+(\d+) to Blade Fury \(Assassin only\)
+Skill-rand197,\+(\d+) to Fade \(Assassin only\)
+Skill-rand198,\+(\d+) to Shadow Warrior \(Assassin only\)
+Skill-rand199,\+(\d+) to Claws of Thunder \(Assassin only\)
+Skill-rand200,\+(\d+) to Dragon Tail \(Assassin only\)
+Skill-rand201,\+(\d+) to Lightning Sentry \(Assassin only\)
+Skill-rand202,\+(\d+) to Wake Of Inferno \(Assassin only\)
+Skill-rand203,\+(\d+) to Mind Blast \(Assassin only\)
+Skill-rand204,\+(\d+) to Blades of Ice \(Assassin only\)
+Skill-rand205,\+(\d+) to Dragon Flight \(Assassin only\)
+Skill-rand206,\+(\d+) to Death Sentry \(Assassin only\)
+Skill-rand207,\+(\d+) to Blade Shield \(Assassin only\)
+Skill-rand208,\+(\d+) to Venom \(Assassin only\)
+Skill-rand209,\+(\d+) to Shadow Master \(Assassin only\)
+Skill-rand210,\+(\d+) to Phoenix Strike \(Assassin only\)
+levelreq,(?:Required|reouired) Level: (\d+)
+ethereal,Ethereal
+oskill,(\+\d+) to [Skill]
+oskill1,\+(\d+) to Arctic Blast
+oskill2,\+(\d+) to Battle Command
+oskill3,\+(\d+) to Battle Cry
+oskill4,\+(\d+) to Battle Orders
+oskill5,\+(\d+) to Berserk
+oskill6,\+(\d+) to Critical Strike
+oskill7,\+(\d+) to Feral Rage
+oskill8,\+(\d+) to Fire Mastery
+oskill9,\+(\d+) to Fire Wall
+oskill10,\+(\d+) to Fire Ball
+oskill11,\+(\d+) to Guided Arrow
+oskill12,\+(\d+) to Hydra
+oskill13,\+(\d+) to Inferno
+oskill14,\+(\d+) to Lycanthropy
+oskill15,\+(\d+) to Meteor
+oskill16,\+(\d+) to Teleport
+oskill17,\+(\d+) to Valkyrie
+oskill18,\+(\d+) to Warmth
+oskill19,\+(\d+) to Vengeance
+oskill20,\+(\d+) to Werebear
+oskill21,\+(\d+) to Werewolf
+oskill22,\+(\d+) to Whirlwind
+oskill23,\+(\d+) to Zeal
+randclassskill,(\+\d+)to [Class] Skill Levels
+def,Defense: (\d+)
+reqdex,Required Dexterity: (\d+)
+reqstr,Required Strength: (\d+)
+wpnclass,(\w+) class (.*)
+classonly,\((.+) only\)
+beltsize,belt size: \\+(\d+)
+chancetoblock,Chance to Block: (\d+)%
+smitedmg,Smite Damage: (\d+) to (\d+)
+kickdmg,Kick Damage: (\d+) to (\d+)
+throwdmg,Throw Damage: (\d+) to (\d+)
+1hdmg,(?:One-Hand Damage:|one-hhand damage:|one-hhandd damage:) (\d+) to (\d+)
+qty,Quantity: (\d+)
