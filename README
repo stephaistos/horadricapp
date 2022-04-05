@@ -13,6 +13,7 @@
 - Large Font Mode MUST be enable in game settings (it changes overlay settings and make it easier to detect stats)
 - OCR in english language only
 - openCV and tesseract must be installed or libraries copied in tool directory, full dependencies list:
+gif.dll
 jpeg62.dll
 leptonica-1.81.1.dll
 libpng16.dll
