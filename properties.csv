@@ -507,7 +507,7 @@ reqdex,Required Dexterity: (\d+)
 reqstr,Required Strength: (\d+)
 wpnclass,(\w+) class (.*)
 classonly,\((.+) only\)
-beltsize,belt size: \\+(\d+)
+beltsize,belt size: \+(\d+) slots
 chancetoblock,Chance to Block: (\d+)%
 smitedmg,Smite Damage: (\d+) to (\d+)
 kickdmg,Kick Damage: (\d+) to (\d+)
